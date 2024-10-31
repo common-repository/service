@@ -1,0 +1,26 @@
+<p><style type=\"text/css\">
+*{
+margin:  0;
+padding: 0;
+outline: none;
+}
+body {
+font-family: Verdana;
+font-size: 12pt;
+}
+</style></p>
+<p style=\"text-align: center;\"><strong>ООО "Сервис"</strong><br />г. Москва, ул. Пушкина д.1<br />телефон: 8(495) <strong>123-44-55</strong><br />режим работы: пн-вс с 11:00 до 21:00</p>
+<p>&nbsp;</p>
+<p style=\"text-align: center;\"><span style=\"text-decoration: underline;\">Гарантийный талон <strong>№ {id_label}</strong></span></p>
+<p>&nbsp;</p>
+<p style=\"text-align: center;\"><span style=\"text-decoration: underline;\">от <em>{date}</em></span></p>
+<p>&nbsp;</p>
+<p style=\"text-align: left;\">Клиент: <strong>{client}</strong><br />Устройство: <strong>{model}</strong><br />Неисправность: <strong>{malfunction}</strong><br />Выполненная работа: <strong>{work}</strong><br />Стоимость ремонта: <strong>{cost_total} руб.</strong></p>
+<p>&nbsp;</p>
+<p>Гарантия предоставляется только на выполненные работы. Срок гарантии 1 месяц. Изделие проверено заказчиком лично, претензий по работоспособности нет-</p>
+<p>&nbsp;</p>
+<p style=\"text-align: left;\">_____________________ {client}</p>
+<p>&nbsp;</p>
+<p style=\"text-align: right;\">Выдал: _____________________</p>
+<p>&nbsp;</p>
+<p style=\"text-align: center;\">- - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>

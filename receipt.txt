@@ -1,0 +1,40 @@
+<p><style type=\"text/css\">
+*{
+margin:  0;
+padding: 0;
+outline: none;
+}
+body {
+font-family: Verdana;
+font-size: 12pt;
+}
+</style></p>
+<p style=\"text-align: center;\"><strong>ООО "Сервис"</strong><br />г. Москва, ул. Пушкина д.1<br />телефон: 8(495) <strong>123-44-55</strong><br />режим работы: пн-вс с 11:00 до 21:00</p>
+<p>&nbsp;</p>
+<p style=\"text-align: center;\"><span style=\"text-decoration: underline;\">Квитанция <strong>№ {id_label}</strong> от <em>{date}</em></span></p>
+<p>&nbsp;</p>
+<p style=\"text-align: left;\"><strong>Клиент: </strong>{client}, +{number}<br /><strong>Устройство:</strong> {model}, {serial}<br /><strong>Комплектация:</strong> Аппарат<br /><strong>Внешний вид:</strong> потертости\царапины<br /><strong>Дефект:</strong> {malfunction}<br /><strong>Ориентировочная стоимость:</strong> {cost_total}</p>
+<p>&nbsp;</p>
+<p>1. Сервисный центр не несет ответственности за возможную потерю данных в памяти устройства, а так же за оставленные SIM и FLASH карты. Заблаговременно примите меры по резервированию информации.</p>
+<p>2. Заказчик принимает на себя риск возможной полной или частичной утраты работоспособности устройства в процессе ремонта, в случае грубых нарушений пользователем условий эксплуатации , наличие следов попадания токопроводящей жидкости (коррозии), либо механических повреждений.</p>
+<p>3. На восстановленные после попадания жидкости устройства гарантия не распространяется и не продлевается.</p>
+<p>4. Срок хранения аппарата 30 дней с ориентировочной даты готовности. После данного срока аппарат утилизируется и претензии по нему не принимаются.</p>
+<p>5. В случае утери квитанции, устройство выдается по предъявлению паспорта на имя заказчика.</p>
+<p>&nbsp;</p>
+<p style=\"text-align: right;\">С условиями ремонта ознакомлен и согласен</p>
+<p>&nbsp;</p>
+<p style=\"text-align: right;\">___________________ {client}</p>
+<p>&nbsp;</p>
+<table style=\"width: 100%;\" border=\"0\">
+<tbody>
+<tr>
+<td style=\"width: 100%;\">
+<p><strong><span style=\"text-align: right;\">Проверка статуса ремонта на сайте:</span></strong></p>
+<p>https://yoursite.ru</p>
+</td>
+<td style=\"text-align: right;\"><img src=\"https://chart.apis.google.com/chart?cht=qr&amp;chs=80x80&amp;chl=https://yoursite.ru/check/{number}\" /></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p style=\"text-align: center;\">- - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
